@@ -1,0 +1,241 @@
+﻿body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+}
+.democontent{
+    margin-top: 150px;
+    padding: 30px;
+}
+.navigation {
+    background-color: #4A4D4E;
+    font-size: 32px;
+    position: relative;
+}
+.spring {
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 300px;
+    padding: 0 10px;
+    height: 100%;
+}
+.navigation__global {
+    width: 100%;
+    overflow: hidden;
+    background: 0 0;
+    z-index: 1;
+    padding-left: 60px;
+}
+.navigation__list {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.no-gutter--all {
+    margin: 0!important;
+}
+.footer__aside::after, .footer__aside::before, .navigation__list::after, .navigation__list::before, .product::after, .product::before, .top-up__steps::after, .top-up__steps::before {
+    content: " ";
+    display: table;
+}
+.navigation__spring {
+    display: block;
+    max-height: 72px;
+}
+* {
+    box-sizing: border-box;
+}
+.navigation__global--type {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    background: 0 0;
+    float: left;
+}
+.navigation__global--type::before {
+    right: 100%;
+    width: 265px;
+}
+.navigation__global--type::after, .navigation__global--type::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #4A4D4E;
+    content: "";
+}
+.navigation__item {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+.navigation__site--active {
+    background-color: #FCFDFD !important;
+    color: #333 !important;
+    margin-left: 80px;
+}
+.navigation__site {
+    font-size: 16px;
+    background-color: #4A4D4E;
+    color: #CCC;
+}
+.navigation__link--slim {
+    padding: 4px 20px;
+}
+.navigation__item--parent, .navigation__link {
+    position: relative;
+}
+.navigation__site {
+    font-size: 16px;
+    background-color: #4A4D4E;
+    color: #CCC;
+}
+.navigation__list {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+    .footer__aside::after, .navigation__list::after, .product::after, .top-up__steps::after {
+        clear: both;
+    }
+.navigation--primary {
+    background-color: #FFF;
+    border-bottom: 1px solid rgba(102,102,102,.5);
+    background-clip: padding-box;
+}
+
+.navigation__global--type::before {
+    right: 100%;
+    width: 265px;
+}
+.navigation__link--main {
+    min-width: 100px;
+    text-align: center;
+    padding: 21px 20px;
+}
+.navigation__link {
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+
+}
+.navigation__item--parent, .navigation__link {
+    position: relative;
+
+}
+.navv li a{
+    color: #333 ;
+    padding: 19px 25px;
+}
+.navigation__item {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+.brand img {
+    width: 60px;
+    margin-right: 0px;
+    margin-top: 5px;
+}
+.navigation__link--active, .navigation__link--main:hover, .navigation__link:focus, .navigation__link:hover {
+    color: #E60000;
+}
+.navigation__link--main {
+    min-width: 100px;
+    text-align: center;
+    padding: 21px 20px;
+}
+.navigation__link--menu.navigation__link--active:hover, .navigation__link--slim:hover {
+    background-color: #FFF;
+    color: #333;
+}
+.calculate{
+    background: #4a4d4e;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    margin-right: 51px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.calculate:hover{
+    background: #E60000;
+}
+.text{
+    color: #E60000;
+}
+.quicklinks {
+    text-align: center;
+}
+.quicklinks {
+    background-color: #4A4D4E;
+    color: #FFF !important;
+}
+.quicklinks__navigation {
+    padding-top: 0;
+}
+.quicklinks__item {
+    display: table-cell;
+    margin: 0 auto;
+}
+.quicklinks__item {
+    display: inline-block;
+    margin: 0 auto;
+}
+.quicklinks__item {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    padding: 26px 0 27px;
+    position: relative;
+}
+a {
+    background-color: transparent;
+    color: inherit;
+    text-decoration: none;
+}
+
+.panel{
+    text-align: right;
+}
+.panel input[type="text"]{
+    max-width: 50px;
+}
+.panel input[type="range"]{
+    width: 220px;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
